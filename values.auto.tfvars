@@ -1,0 +1,9 @@
+awsRegion            = "us-east-1"
+vpcCidr              = "10.0.0.0/16"
+vpcName              = "terraform Vpc"
+igwName              = "igw"
+anyIP                = "0.0.0.0/0"
+publicRouteTableName = "public route table to internet gateway"
+subnetsCidr          = ["10.0.0.0/24", "10.0.1.0/24"]
+subnetsNames         = ["public subnet", "private subnet"]
+instanceType         = "t2.micro"
